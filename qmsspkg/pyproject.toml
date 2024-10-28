@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tic-tac-toe-enf2122"
+version = "0.1.0"
+description = "tic tac toe game"
+authors = ["Your Name <elifrance02@>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.1.3"
+sphinx-autodoc-typehints = "^2.5.0"
+sphinx-rtd-theme = "^3.0.1"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
